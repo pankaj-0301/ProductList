@@ -17,9 +17,6 @@ This is a simple product listing interface built using Next.js, React, and Tailw
 - Tailwind CSS
 - ESLint
 
-## Project Structure
-
-<pre> ## Folder Structure src/ ├── components/ # Reusable UI components (Navbar, ProductCard, ProductGrid) ├── data/ # Static product list ├── pages/ │ ├── index.js # Home page │ └── products/ │ ├── index.js # Product grid page │ └── [id].js # Optional product detail page ├── styles/ └── globals.css # Tailwind CSS setup </pre>
 
 
 ## Setup Instructions
