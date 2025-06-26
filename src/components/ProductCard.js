@@ -5,7 +5,7 @@ export default function ProductCard({ product }) {
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-100">
       <Image
-        src={product.image}
+        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Farchive.org%2Fdetails%2Fplaceholder-image&psig=AOvVaw1Oh8SEDUjlxaoDdNbDVD2X&ust=1751004033391000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjByb20jo4DFQAAAAAdAAAAABAL"
         alt={product.name}
         width={400}
         height={200}
