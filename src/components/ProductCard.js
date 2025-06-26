@@ -1,11 +1,14 @@
 import Link from "next/link";
+import Image from "next/image"; // ✅ Add this
 
 export default function ProductCard({ product }) {
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-      <img
+      <Image
         src={product.image}
         alt={product.name}
+        width={400}
+        height={200}
         className="w-full h-48 object-cover mb-4 rounded-md"
       />
       <h2 className="text-xl font-bold text-gray-900 mb-2">{product.name}</h2>

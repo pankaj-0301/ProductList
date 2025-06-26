@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Navbar from "@/components/Navbar";
 import products from "@/data/products";
+import Image from 'next/image';
 
 export default function ProductDetail() {
   const router = useRouter();
@@ -24,13 +25,15 @@ export default function ProductDetail() {
       <div className="max-w-6xl mx-auto px-6 py-8">
         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="p-8">
-              <img 
-                src={product.image} 
-                alt={product.name}
-                className="w-full h-96 object-cover rounded-lg shadow-md"
-              />
-            </div>
+           <div className="p-8">
+  <Image 
+    src={product.image}
+    alt={product.name}
+    width={800}
+    height={400}
+    className="w-full h-96 object-cover rounded-lg shadow-md"
+  />
+</div>
 
             <div className="p-8 flex flex-col justify-center">
               <h1 className="text-4xl font-bold text-gray-900 mb-4">{product.name}</h1>

@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Link from "next/link"; // ✅ Add this
 
 export default function Home() {
   return (
@@ -8,9 +9,9 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-4">Welcome to MyShop</h1>
         <p className="text-lg text-gray-600">
           Browse our amazing products on the{" "}
-          <a href="/products" className="text-blue-600 underline">
+          <Link href="/products" className="text-blue-600 underline">
             products page
-          </a>
+          </Link>
           .
         </p>
       </main>
