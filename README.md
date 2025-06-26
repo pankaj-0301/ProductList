@@ -21,13 +21,13 @@ This is a simple product listing interface built using Next.js, React, and Tailw
 
 ## Setup Instructions
 
-1. Clone the repository
+1. Clone the repository `https://github.com/pankaj-0301/ProductList`
 
 
-2. Install dependencies
+2. Install dependencies `npm install`
 
 
-3. Run the development server
+3. Run the development server `npm run dev`
 
 
 4. Open your browser at  http://localhost:3000/products
