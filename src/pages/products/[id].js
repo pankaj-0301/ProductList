@@ -28,7 +28,7 @@ export default function ProductDetail() {
            <div className="p-8">
   <Image 
     src={product.image}
-    alt={product.name}
+    alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Farchive.org%2Fdetails%2Fplaceholder-image&psig=AOvVaw1Oh8SEDUjlxaoDdNbDVD2X&ust=1751004033391000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjByb20jo4DFQAAAAAdAAAAABAL"
     width={800}
     height={400}
     className="w-full h-96 object-cover rounded-lg shadow-md"
